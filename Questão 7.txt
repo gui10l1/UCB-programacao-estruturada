@@ -1,0 +1,6 @@
+7) Considere o vetor int x[5] = {0, 1, 2, 3, 4}. Quais serão os valores de x após a chamada troca(x+1, x+4)?
+   void troca(int *pa, int *pb) {
+	int t; t=*pa; *pa=*pb; *pb=t;
+   }
+
+RESPOSTA -> Inverte o valor da segunda posição do array com a última posição.
